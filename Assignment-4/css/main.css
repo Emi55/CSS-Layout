@@ -1,0 +1,73 @@
+/* from Top to Bottom */
+
+/* logo (even tho it does look like one */
+
+.logo{
+    font-family: 'Inria Sans', sans-serif;
+    font-weight:bolder;
+    text-align: center;
+    font-size: 45px;
+}
+
+/* The nav bar */
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 155px 14px 155px;
+    text-decoration: underline;
+    background-color: aquamarine;
+  }
+
+  li a:hover{
+      background-color: deepskyblue;
+  }
+
+.nav a{
+      position:top;
+      top: 0;
+  }
+
+  /* image */
+  article img{
+      float: left;
+      margin-right:2%;
+  }
+
+
+  /* Two column layout */
+  article {
+    float: left;
+    width: 50%;
+  }
+
+aside{
+    float: right;
+    width: 45%;
+}
+
+/* Paragraph */
+h1,
+h2{
+    text-align: center;
+    color: firebrick;
+    
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
